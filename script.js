@@ -88,6 +88,19 @@ var upperCasedCharacters = [
   'Z'
 ];
 
+//The application must:
+// - Generate a password when the button is clicked.
+
+// Present the following prompts:
+// Length of password - between 10 and 64 characters
+// Character types - lowercase, uppercase, numeric and special characters ($@£%etc)
+
+// The code should validate for each input and at least one character type should be selected.
+
+// Once all prompts are answered, the password should be generated and displayed in an alert or written to the page.
+
+
+
 // Function to prompt user for password options
 function getPasswordOptions() {
 
