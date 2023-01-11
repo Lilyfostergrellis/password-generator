@@ -1,5 +1,5 @@
 // Array of special characters to be included in password
-var specialCharacters = [
+let specialCharacters = [
   '@',
   '%',
   '+',
@@ -26,10 +26,10 @@ var specialCharacters = [
 ];
 
 // Array of numeric characters to be included in password
-var numericCharacters = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+let numericCharacters = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 
 // Array of lowercase characters to be included in password
-var lowerCasedCharacters = [
+let lowerCasedCharacters = [
   'a',
   'b',
   'c',
@@ -59,7 +59,7 @@ var lowerCasedCharacters = [
 ];
 
 // Array of uppercase characters to be included in password
-var upperCasedCharacters = [
+let upperCasedCharacters = [
   'A',
   'B',
   'C',
@@ -88,41 +88,32 @@ var upperCasedCharacters = [
   'Z'
 ];
 
-//The application must:
-// - Generate a password when the button is clicked.
+/*
+When the main generate password button is clicked
+  The user is prompted to enter the length of the password 
+    If user provides valid length, its stored in a variable and proceed
+    If user provides an invalid length, the user is then prompted to enter a valid value again
+*/
 
-// Present the following prompts:
-// Length of password - between 10 and 64 characters
-// Character types - lowercase, uppercase, numeric and special characters ($@£%etc)
+// Function to prompt user for password Length
+function getPasswordLength()
 
-// The code should validate for each input and at least one character type should be selected.
-
-// Once all prompts are answered, the password should be generated and displayed in an alert or written to the page.
-
-
-
-// Function to prompt user for password options
-function getPasswordOptions() {
-
-}
-
-// Function for getting a random element from an array
-function getRandom(arr) {
-
-}
-
-// Function to generate password with user input
-function generatePassword() {
-
-}
+  // prompt user for password length
+  let passwordLength = prompt(`Enter character length of password in numbers between `)
+ 
+  // Checks if provided length falls within acceptable range. 
+  // If the value is valid return True otherwise return False
+  function isLengthValid(pwdLength) {
+      return pwdLength >= 10 && pwdLength <= 64
+  } 
 
 // Get references to the #generate element
-var generateBtn = document.querySelector('#generate');
+let generateBtn = document.querySelector('#generate');
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector('#password');
+  let password = generatePassword();
+  let passwordText = document.querySelector('#password');
 
   passwordText.value = password;
 }
