@@ -45,4 +45,4 @@ If you have any questions, please contact me at:
 
   Email: [ Lily Foster-Grellis](mailto:lilyfostergrellis@gmail.com) 
 
-  LinkedIn: [ Lily Foster-Grellis ](https://linkedin.com/in/goloobab)
+  LinkedIn: [ Lily Foster-Grellis ](https://www.linkedin.com/in/lily-foster-grellis-l-i-o-n-7ba9751a4/)
