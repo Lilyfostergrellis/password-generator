@@ -6,7 +6,7 @@ The following project is a random password generator written and developed using
 
 ## Task 
 
-Generate a random password when the button is clicked.
+Generate a random password when the generate password button is clicked.
 
 Present a series of prompts for password criteria:
 
@@ -23,6 +23,8 @@ The code should validate for each input and at least one character type should b
 Once all prompts are answered, the password should be generated and displayed in an alert or written to the page.
 
 ![Generated Password](./assets/chrome-capture-2023-2-7.png)
+
+To run the application simply click on the webpage and click on the generate password button: ![Password Generator Website](https://lilyfostergrellis.github.io/password-generator/)
 
 ## Challenges
 
