@@ -24,7 +24,7 @@ Once all prompts are answered, the password should be generated and displayed in
 
 ![Generated Password](./assets/chrome-capture-2023-2-7.png)
 
-To run the application simply click on the webpage and click on the generate password button: ![Password Generator Website](https://lilyfostergrellis.github.io/password-generator/)
+To run the application simply click on the webpage and click on the generate password button: https://lilyfostergrellis.github.io/password-generator/
 
 ## Challenges
 
