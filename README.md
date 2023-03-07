@@ -22,6 +22,8 @@ The code should validate for each input and at least one character type should b
 
 Once all prompts are answered, the password should be generated and displayed in an alert or written to the page.
 
+![Generated Password](./assets/chrome-capture-2023-2-7.png)
+
 ## Challenges
 
 * Validating users input choices. 
